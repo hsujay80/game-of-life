@@ -497,6 +497,12 @@
                         <version>2.1</version>
                     </plugin>
                 </plugins>
+                <DistributionManagement>
+                    <SnapshotRepository>
+                        <id>admin</id>
+                        <url>http://repo1.maven.org/maven2</url>
+                    </SnapshotRepository>
+                 </DistributionManagement>
             </reporting>
         </profile>
     </profiles>
