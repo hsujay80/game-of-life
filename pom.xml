@@ -500,4 +500,14 @@
             </reporting>
         </profile>
     </profiles>
+    <distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://35.162.197.99:8081/nexus/content/repositories/releases</url>
+  </repository>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://35.162.197.99:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 </project>
